@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 40px;
     color: gold;
-    font-family: 'Noto Sans Cherokee', sans-serif;
+    font-family: 'Caramel', cursive;
     font-style: italic;
 }
 .col-md-7{
@@ -22,12 +22,10 @@ margin:0;
 list-style-type: none;
 position:relative;
 text-align: center;
-
 }
 ul li{
     display:inline-block;
-    margin-right: 36px; 
-    
+    margin-right: 36px;  
 }
 .container1 a{text-decoration: none;
 color:aliceblue;}
@@ -67,4 +65,24 @@ color:aliceblue;}
     background-position: center center;
     background-size: cover;
     background-image: url(https://media.istockphoto.com/id/596080538/photo/classic-brown-shoes-briefcase-belt-and-umbrella.jpg?b=1&s=612x612&w=0&k=20&c=RNwZXL7nGL22wUeAvwjS358qYhjiZMLjHYsA39HkfJI=);}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+    .container2 .col{
+text-align: center;
+margin-top: 70px;
+}
+.container2 .col h2{
+    font-family: 'Caramel', cursive;
+}
+.container2 i {
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: yellow;
+    border-radius: 50%;  
+    border-color: yellow; 
+    border-color: yellow;
+    border-style: solid;
+ text-align: center;
+}
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

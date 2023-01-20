@@ -1,15 +1,265 @@
-ul{
-padding:0;
-margin:0;
-list-style-type: none;
-position:relative;
-}
-ul li{
-    display:inline-block;
-    margin-right: 36px; 
-}
-a{
-    text-decoration: none;
-}
-
-    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./vendor/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    Golden
+                </div>
+                <div class="col-md-7">
+                    <div class="container1">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Home
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        About 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <header class="splash">
+                        <div class="splash-inner">
+                            <h1 class="page-title">
+                                <h1>
+                                    Welcom To Our Studio! 
+                                </h1>
+                                <h2 class="page-subtitle">
+                                    IT'S NICE TO MEET YOU
+                                </h2>
+                                <a class="btn btn-one" href="#">
+                                    TELL ME MORE
+                                </a>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="row">
+                        <div class="col">
+                            <h1>
+                                SERVICES
+                            </h1>
+                            <h2>
+                                Pellentesque rhoncus nunc et augue. Integer id felis.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <i class="fa-sharp fa-solid fa-basket-shopping">
+                            </i>
+                            <h1>
+                                E-commerce
+                            </h1>
+                            <br>
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper..
+                        </div>
+                        <div class="col">
+                            <i class="fa-sharp fa-solid fa-laptop">
+                            </i>
+                            <h1>
+                                Responsive Web
+                            </h1>
+                            <br>
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        </div>
+                        <div class="col">
+                            <i class="fa-sharp fa-solid fa-lock">
+                            </i>
+                            <h1>
+                                Web Security
+                            </h1>
+                            <br>
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="products py-5">
+            <div class="container3">
+                <div class="row">
+                    <div class="col tytul">
+                        <h1>
+                            OUR PORTFOLIO
+                        </h1>
+                        <h2>
+                            Pellentesque rhoncus nunc et augue. Integer id felis.
+                        </h2>
+                    </div>
+                </div>
+                <div class="container4">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://media.istockphoto.com/id/945451566/pl/zdjęcie/czarny-pusty-zestaw-papeterii-z-telefonem-słuchawką-kawą-na-ciemnym-tle-drewna-nachylony.jpg?s=612x612&w=0&k=20&c=kVh09eubkM_uoCiGh-ErulATYUkohWkUquhctTVqR7w=">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>
+                                                Ebony&Ivory
+                                            </h5>
+                                            <p>
+                                                Branding
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://media.istockphoto.com/id/1147595394/pl/wektor/tożsamość-marki-korporacyjnej-papeterii-biznesowej-makiety-marki-koperty-karty-kubek.jpg?s=612x612&w=0&k=20&c=J_l-zOqCb8dNVWHIsxtjKkxhm0I3kCOeOUxLdmXX9Gk=">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>
+                                                Smart Stationary
+                                            </h5>
+                                            <p>
+                                                Print Design
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://media.istockphoto.com/id/475614754/pl/zdjęcie/puste-plakat.jpg?s=612x612&w=0&k=20&c=rKYFBU0D5fLToJImYDRHmQKLGKaUrtQIRpp41ptgJEc=">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>
+                                                Clever Poster
+                                            </h5>
+                                            <p>
+                                                Print Design
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://media.istockphoto.com/id/1040253588/pl/wektor/lp-record-vinyl-disc-cover-z-płytą-winylową-w-środku-realistyczna-makieta-wektora-ilustracja.jpg?s=612x612&w=0&k=20&c=rqkihC-NGFe3YPGgXb6EIs24vwPQBR7I10fYvVMITfs=">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>
+                                                Vinyl Record
+                                            </h5>
+                                            <p>
+                                                Product Mock-Up
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://media.istockphoto.com/id/908793198/pl/zdjęcie/kobieta-rezerwacja-lotu-online-za-pomocą-laptopa.jpg?s=612x612&w=0&k=20&c=iFiCY7xjwUb8acFReDckw7XeiGzO9luIX0hBl0mWprU=">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>
+                                                Threehouse Template
+                                            </h5>
+                                            <p>
+                                                Web Design
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img src="https://media.istockphoto.com/id/1191646818/pl/zdjęcie/mentor-koncepcja-edukacji-wzrostu-rozwoju-i-wartości.jpg?s=612x612&w=0&k=20&c=3sIa-BQH3mSdB6IQG_c5Y7qzqGstDYDOxc4U7UL55WU=">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5>
+                                                Burned Logo
+                                            </h5>
+                                            <p>
+                                                Branding
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="row">
+                <div class="col-3">
+                    @Copyrigt 2014 FreebiesXpress.com
+                </div>
+                <div class="col-9">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter">
+                                </i>
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f">
+                                </i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-pinterest">
+                                </i>
+                                Pinterest
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-google">
+                                </i>
+                            </i>
+                            Google
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

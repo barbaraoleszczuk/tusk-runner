@@ -1,4 +1,4 @@
-/*Global*/
+ul{padding:0;margin:0;list-style-type:none;position:relative}ul li{display:inline-block;margin-right:36px}a{text-decoration:none}/*Global*/
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -113,4 +113,5 @@ padding-bottom: 20px;}
 .container4 p{font-family: 'Caramel', cursive;
 font-size: 20px;}
 .container4 h5{font-size: 25px;}
-    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxHQUFHLFNBQVMsQ0FBQyxRQUFRLENBQUMsb0JBQW9CLENBQUMsaUJBQWlCLENBQUMsTUFBTSxvQkFBb0IsQ0FBQyxpQkFBaUIsQ0FBQyxFQUFFLG9CQUFvQiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJ1bHtwYWRkaW5nOjA7bWFyZ2luOjA7bGlzdC1zdHlsZS10eXBlOm5vbmU7cG9zaXRpb246cmVsYXRpdmV9dWwgbGl7ZGlzcGxheTppbmxpbmUtYmxvY2s7bWFyZ2luLXJpZ2h0OjM2cHh9YXt0ZXh0LWRlY29yYXRpb246bm9uZX1cbiJdfQ== */
